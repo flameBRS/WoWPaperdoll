@@ -1,0 +1,16 @@
+.wpd-window .window-content { background: radial-gradient(circle at 50% 35%, #26333a 0, #11171b 68%, #090c0e 100%); }
+.wpd-wrap { min-width:560px; color:#e8d9aa; font-family:serif; padding:10px; }
+.wpd-title { text-align:center; text-transform:uppercase; letter-spacing:2px; font-weight:700; margin-bottom:10px; color:#f2cf69; text-shadow:0 1px 2px #000; }
+.wpd-board { display:grid; grid-template-columns:76px 1fr 76px; gap:12px; align-items:center; }
+.wpd-left,.wpd-right { display:flex; flex-direction:column; gap:5px; }
+.wpd-center { min-height:410px; border:1px solid #725d32; box-shadow:inset 0 0 30px #000; display:flex; flex-direction:column; justify-content:center; align-items:center; padding:12px; background:rgba(0,0,0,.2); }
+.wpd-portrait { max-width:280px; max-height:330px; object-fit:contain; filter:drop-shadow(0 5px 10px #000); }
+.wpd-hint { margin-top:10px; text-align:center; opacity:.65; font:12px sans-serif; }
+.wpd-slot { height:62px; width:62px; border:2px ridge #776238; background:linear-gradient(135deg,#15191b,#292d2f); box-shadow:inset 0 0 12px #000,0 1px 4px #000; display:flex; flex-direction:column; justify-content:center; align-items:center; overflow:hidden; cursor:pointer; position:relative; }
+.wpd-slot i { font-size:25px; opacity:.28; }
+.wpd-slot span { font:9px sans-serif; opacity:.65; max-width:58px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; margin-top:3px; }
+.wpd-slot.filled { border-color:#a9843c; }
+.wpd-slot img { width:100%; height:100%; object-fit:cover; position:absolute; inset:0; }
+.wpd-slot.filled span { position:absolute; bottom:0; width:100%; max-width:none; padding:2px; text-align:center; background:rgba(0,0,0,.72); color:white; opacity:1; }
+.wpd-weapons { display:flex; justify-content:center; gap:14px; margin-top:12px; }
+.wpd-weapons .wpd-slot { width:74px; height:74px; }
