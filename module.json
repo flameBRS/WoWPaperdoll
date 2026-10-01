@@ -3,6 +3,9 @@
   "title": "WoW Paper Doll for D&D5e",
   "description": "A lightweight World of Warcraft-inspired equipment paper doll for D&D5e characters, built for Foundry VTT v14.",
   "version": "0.2.0",
+  
+  "manifest": "https://raw.githubusercontent.com/flameBRS/WoWPaperdoll/main/module.json",
+  "download": "https://github.com/flameBRS/WoWPaperdoll/releases/download/v0.2.0/wow-paper-doll-foundry-v14.zip",
   "authors": [{"name": "ChatGPT + Marian"}],
   "compatibility": {"minimum": "14", "verified": "14"},
   "relationships": {
