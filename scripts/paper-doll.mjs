@@ -1,5 +1,5 @@
 const MOD = "wow-paper-doll";
-const VERSION = "0.4.0";
+const VERSION = "0.4.1";
 const A = `modules/${MOD}/assets/slots`;
 
 const SLOTS = [
@@ -20,12 +20,13 @@ const SLOTS = [
   ["trinket2","Trinket",`${A}/Ui-paperdoll-slot-trinket.webp`],
   ["mainhand","Main Hand",`${A}/Ui-paperdoll-slot-mainhand.webp`],
   ["offhand","Off Hand",`${A}/Ui-paperdoll-slot-secondaryhand.png`],
-  ["ranged","Ranged",`${A}/Ui-paperdoll-slot-ranged.webp`]
+  ["ranged","Ranged",`${A}/Ui-paperdoll-slot-ranged.webp`],
+  ["ammo","Ammo",`${A}/Ui-paperdoll-slot-ammo.png`]
 ];
 const SLOT_MAP = Object.fromEntries(SLOTS.map(([id,label,img]) => [id,{label,img}]));
-const LEFT = ["head","neck","shoulders","back","chest","shirt"];
-const RIGHT = ["wrists","hands","waist","legs","feet","finger1"];
-const BOTTOM = ["finger2","trinket1","trinket2","mainhand","offhand","ranged"];
+const LEFT = ["head","neck","shoulders","back","chest","shirt","wrists"];
+const RIGHT = ["hands","waist","legs","feet","finger1","finger2","trinket1","trinket2"];
+const BOTTOM = ["mainhand","offhand","ranged","ammo"];
 
 Hooks.once("init", () => {
   game.settings.register(MOD,"showButton",{name:"Show Paper Doll button on character sheets",hint:"Adds a Paper Doll button to D&D5e character sheets.",scope:"client",config:true,type:Boolean,default:true});

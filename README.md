@@ -9,3 +9,9 @@ Foundry VTT v14 module.
 - Supports one Paper Doll window per actor rather than one global window.
 
 Enable the auto-open option under **Game Settings → Configure Settings → Module Settings → WoW Paper Doll for D&D5e**.
+
+
+## v0.4.1 layout
+Left: Head, Neck, Shoulders, Back, Chest, Shirt, Wrists.
+Right: Hands, Waist, Legs, Feet, Ring, Ring, Trinket, Trinket.
+Bottom: Main Hand, Off Hand, Ranged, Ammo.
